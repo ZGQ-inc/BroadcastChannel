@@ -43,7 +43,7 @@ export async function GET(Astro) {
   })
 
   response.headers.set('Content-Type', 'text/xml')
-  response.headers.set('Cache-Control', 'public, max-age=36000')
+  response.headers.set('Cache-Control', 'public, max-age=3600')
 
   return response
 }
